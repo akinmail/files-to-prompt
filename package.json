@@ -1,0 +1,37 @@
+{
+  "name": "files-to-prompt",
+  "version": "0.1.0",
+  "description": "Convert files to a format suitable for LLM prompting",
+  "main": "src/index.js",
+  "bin": {
+    "files-to-prompt": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "cli": "node bin/cli.js",
+    "test": "node test/index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "llm",
+    "prompt",
+    "files",
+    "ai",
+    "gpt",
+    "prompt-engineering"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
