@@ -20,7 +20,7 @@
     "gpt",
     "prompt-engineering"
   ],
-  "author": "",
+  "author": "Akinyemi Akindele",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
