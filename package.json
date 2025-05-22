@@ -12,6 +12,14 @@
     "test": "node test/index.js",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akinmail/files-to-prompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akinmail/files-to-prompt/issues"
+  },
+  "homepage": "https://github.com/akinmail/files-to-prompt#readme",
   "keywords": [
     "llm",
     "prompt",
