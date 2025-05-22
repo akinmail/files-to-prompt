@@ -4,7 +4,7 @@
   "description": "Convert files to a format suitable for LLM prompting",
   "main": "src/index.js",
   "bin": {
-    "files-to-prompt": "./bin/cli.js"
+    "files-to-prompt": "bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js",
